@@ -1,10 +1,19 @@
 <?php
 /**
  * The main template file
- * Test comment from different machine
+ *
  */
 
 get_header();
+
+while(have_posts()){
+    the_post();
+    echo the_title();
+    echo the_content();
+}
 ?>
 
-<h1> Home Page </h1>
+
+
+
+<?php get_footer() ?>
