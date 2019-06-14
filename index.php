@@ -1,7 +1,7 @@
 <?php
 /**
  * The main template file
- *
+ * Test comment from different machine
  */
 
 get_header();
