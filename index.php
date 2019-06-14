@@ -8,12 +8,12 @@ get_header();
 
 while(have_posts()){
     the_post();
-    echo the_title();
-    echo the_content();
-}
-?>
+    ?>
+    <div class="post-section">
+        <h1><?php the_title(); ?> </h1>
+        <p><?php the_content(); ?></p>
+    </div>
+<?php }
 
 
-
-
-<?php get_footer() ?>
+get_footer() ?>
