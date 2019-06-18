@@ -19,7 +19,7 @@ html,body {
 
 .button-text{
     font-size: 3em;
-    color: #FFA500;
+    color: #FFF;
 }
 
 .blurry-city-bg{
@@ -32,6 +32,10 @@ html,body {
       background-repeat: no-repeat;
       background-size: cover;
     }
+
+.color-white{
+    color: #FFF !important;
+}
 
 .gallery .gallery-item,
 .gallery-columns-2 .gallery-item:nth-child(2n+1),
@@ -95,9 +99,12 @@ html,body {
 
 }
 
+.main-sub-text{
+    color: white;
+}
 .main-text{
     font-size: 8em;
-    color: #FFF;
+    color: #FFA500;
 }
 
 .post-section{
@@ -107,6 +114,9 @@ html,body {
     margin: 2%;
 }
 
+.sub-text-container{
+    margin: 10px;
+}
 .testr:link {
     text-decoration: none;
 }

@@ -5,7 +5,7 @@
         <?php wp_head(); ?>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-    
+
     <?php
     	if(!is_front_page()){
     ?>
@@ -21,17 +21,20 @@
 		            <a class="nav-link" href="#">Portfolio <span class="sr-only">(current)</span></a>
 		          </li>
 		          <li class="nav-item active">
-		            <a class="nav-link" href="#">Blog</a>
+		            <a class="nav-link disabled" href="#">Blog</a>
 		          </li>
+                  <li>
+                    <a class="nav-link" href="/contact">Contact</a>
+                  </li>
 		          <?php
 		          	if (is_front_page()){
 		          		?>
 		          		<li class="nav-item active">
 		          			<span> show if true</span>
 		      	  		</li>
-		          	<?php 
-		          	} ?> 
-		          
+		          	<?php
+		          	} ?>
+
 		        </ul>
 		        <form class="form-inline my-2 my-lg-0">
 		          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
