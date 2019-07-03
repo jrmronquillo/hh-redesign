@@ -12,6 +12,10 @@ html,body {
     background-color: #D3D3D3;
     }
 
+p {
+  padding: 0 15%;
+}
+
 .button-custom{
     margin: 2em;
     color: #FFA500 !important;
@@ -110,13 +114,16 @@ html,body {
 .post-section{
     background-color: #FFF;
     text-align: left;
-    padding: 2%;
-    margin: 2%;
+    font-size: 1.5em;
+    padding: 0 2%;
+    margin: 0 10%;
 }
 
 .sub-text-container{
     margin: 10px;
 }
+
+
 .testr:link {
     text-decoration: none;
 }
