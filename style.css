@@ -24,6 +24,14 @@ p {
   padding: 0 15%;
 }
 
+ol {
+  margin: 0 15%;
+}
+
+input, textarea{
+  width: 100%;
+}
+
 
 
 .button-custom{
