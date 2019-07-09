@@ -13,7 +13,7 @@
                         <a href='<?php echo site_url('/portfolio/') ?>'> <div class="button-text indie-google-font"> Portfolio </div> </a>
                     </button>
                 </div>
-            <button type="button" class="btn btn-outline-warning cta-margin">
+            <button type="button" class="btn btn-outline-warning cta-margin small-bottom-margin">
                 <a href="http://instagram.com/highlighthumble"> <div class="button-text indie-google-font"> Instagram </div></a>
             </button>
             <div class="sub-text-container">

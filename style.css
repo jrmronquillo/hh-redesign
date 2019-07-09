@@ -121,8 +121,12 @@ input, textarea{
 
 }
 
+.small-bottom-margin{
+  margin-bottom: 2%;
+}
+
 .main-sub-text{
-    color: white;
+    color: orange;
 }
 .main-text{
     font-size: 8em;
@@ -138,7 +142,11 @@ input, textarea{
 }
 
 .sub-text-container{
-    margin: 10px;
+    width: 35%;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    opacity:.8;
 }
 
 
