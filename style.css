@@ -1,7 +1,10 @@
 /*
-Theme name: hh-redesign
+Theme name: hh-redesign_v6
 Author: Jerome
-Description: hh-redesign
+Description: hh-redesign_v6
+
+v6
+added script to import googles lato font - also added margins on the blog page for easier readability
 
 v5
 change colors of the subtext to make it more prominent
@@ -24,7 +27,9 @@ html,body {
     margin-top:  0 !important;
     top: 0;
     height: 100%;
-    background-color: #D3D3D3;
+    /*background-color: #D3D3D3; gray*/
+    background-color: #FFF;
+    font-family: 'Lato', sans-serif;
     }
 
 p {
@@ -145,7 +150,17 @@ input, textarea{
     text-align: left;
     font-size: 1.5em;
     padding: 0 2%;
-    margin: 0 10%;
+    margin: 5% 10%;
+}
+
+.post-title-container{
+  width:100%;
+  text-align:center;
+  border: 2px solid red !important;
+}
+
+.post-title{
+  font-size: 1.5em;
 }
 
 .sub-text-container{
