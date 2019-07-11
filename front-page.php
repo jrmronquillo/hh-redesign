@@ -18,7 +18,7 @@
             </button>
             <div class="sub-text-container">
                 <span class="main-sub-text">
-                Photographer | Los Angeles | <a href="mailto: jerome@highlighthumblephotography.com"> Now Booking for 2019</a>
+                Photographer | Los Angeles | <a href="mailto: jerome@highlighthumblephotography.com">Book Now 2019</a>
                 </span>
             </div>
 

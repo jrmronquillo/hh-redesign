@@ -1,7 +1,11 @@
 /*
-Theme name: hh-redesign_v6
+Theme name: hh-redesign_v7
 Author: Jerome
-Description: hh-redesign_v6
+Description: hh-redesign_v7
+
+v7
+made the sub-text container mobile responsive,
+where the text doesn't wrap awkwardly on smaller viewports
 
 v6
 added script to import googles lato font - also added margins on the blog page for easier readability
@@ -180,6 +184,14 @@ input, textarea{
   input, textarea{
     width: 100%;
   }
+
+  .sub-text-container{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    opacity:.8;
+}
 }
 
 @media (max-width: 450px) {
