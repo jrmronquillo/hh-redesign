@@ -160,7 +160,7 @@ input, textarea{
 .post-title-container{
   width:100%;
   text-align:center;
-  border: 2px solid red !important;
+  /*border: 2px solid red !important;*/
 }
 
 .post-title{
